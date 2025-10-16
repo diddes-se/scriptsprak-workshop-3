@@ -1,6 +1,7 @@
 # Import the JSON file
 $data = Get-Content -Path "ad_export.json" -Raw | ConvertFrom-Json
 
+# Function for safe date parsing
 function Get-SafeDate {
     param($DateString)
     try {

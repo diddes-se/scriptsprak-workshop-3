@@ -1,3 +1,4 @@
 ad_audit_report.txt
 inactive_users.csv
 computer_status.csv
+days_since_password_set.csv
